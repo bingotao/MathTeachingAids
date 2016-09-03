@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>有理数的运算</title>
+    <link href="RationalNumber.css" rel="stylesheet" />
+    <script src="../Reference/jquery.min.js"></script>
+    <script src="RationalNumber.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="start active">
+            <div class="start-title">有理数的运算</div>
+            <table>
+                <tr>
+                    <th style="width:25%;">题数</th>
+                    <td style="width:75%;" class="test-count">
+                        <span class="item active" data-value="20">20</span>
+                        &nbsp;&nbsp;
+                        <span class="item" data-value="30">30</span>
+                        &nbsp;&nbsp;
+                        <span class="item" data-value="50">50</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>难度</th>
+                    <td class="test-level">
+                        <span class="item active" data-value="0">简单</span>
+                        &nbsp;&nbsp;
+                        <span class="item" data-value="1">中等</span>
+                        &nbsp;&nbsp;
+                        <span class="item" data-value="2">困难</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <span class="btn btn-start-test">开始答题</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="calculate">
+            <div class="test-numbers">
+
+            </div>
+            <div class="test-content">
+                <div class="test-content-title">第<span>1</span>题</div>
+                <div class="test-content-info">
+                    <div style="max-width:500px;">
+                        <span class="t-cnt"></span>
+                        <span class="t-answer"></span>
+                    </div>
+                </div>
+                <div class="calculate-panel">
+                    <span class="btn">0</span>
+                    <span class="btn">1</span>
+                    <span class="btn">2</span>
+                    <span class="btn">3</span>
+                    <span class="btn">4</span>
+                    <span class="btn">5</span>
+                    <span class="btn">6</span>
+                    <span class="btn">7</span>
+                    <span class="btn">8</span>
+                    <span class="btn">9</span>
+                    <span class="btn">-</span>
+                    <span class="btn">C</span>
+                </div>
+                <div class="btns">
+                    <span class="btn btn-pr">上一题</span>
+                    <span class="btn btn-next">下一题</span>
+                    <span class="btn btn-sub">提交</span>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <span class="btn btn-retry">重新抽题</span>
+            <div class="result-title">结果分析</div>
+            <div class="result-analysis">
+                <span>共：<span class="result-total">50</span>&nbsp;题</span>
+                <span>答对：<span class="result-right">20</span>&nbsp;题</span>
+                <span>答错：<span class="result-wrong">30</span>&nbsp;题</span>
+                <span>正确率：<span class="result-ratio">40</span>&nbsp;%</span>
+            </div>
+            <div style="margin-top: 20px; background-color: rgba(0, 148, 255, 1);">
+                <table class="tb-head">
+                    <colgroup>
+                        <col style="width: 120px;" />
+                        <col style="width: 320px;" />
+                        <col style="width: 150px;" />
+                        <col style="width: 150px;" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>题目</th>
+                            <th>正确答案</th>
+                            <th>你的答案</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div style="border: 1px solid #0094ff;height:370px;-webkit-overflow-scrolling: touch;
+    overflow: auto;">
+                <table class="result-items">
+                    <colgroup>
+                        <col style="width: 120px;" />
+                        <col style="width: 320px;" />
+                        <col style="width: 150px;" />
+                        <col style="width: 150px;" />
+                    </colgroup>
+                    <thead class="items">
+
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
