@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CrystalBall\CrystalBall.css" />
-    <Content Include="CrystalBall\CrystalBall.html" />
+    <Content Include="CrystalBall\index.html" />
     <Content Include="CrystalBall\CrystalBall.js" />
     <Content Include="CrystalBall\imgs\icons_white.svg" />
     <Content Include="CrystalBall\imgs\icons_blue.svg" />
@@ -114,7 +114,7 @@
   <ItemGroup>
     <Content Include="Reference\jquery.min.js" />
     <Content Include="RationalNumber\RationalNumber.css" />
-    <Content Include="RationalNumber\RationalNumber.html" />
+    <Content Include="RationalNumber\index.html" />
     <Content Include="RationalNumber\RationalNumber.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
